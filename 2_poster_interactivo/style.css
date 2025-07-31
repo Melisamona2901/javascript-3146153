@@ -33,6 +33,7 @@
     left: 26%;
     width: 6%;
     height: auto;
+    cursor: pointer;
 
 }
 .moneda-2{
@@ -41,6 +42,7 @@
     left: 35%;
     width: 6%;
     height: auto;
+    cursor: pointer;
 
 }
 .moneda-3{
@@ -49,6 +51,7 @@
     left: 89%;
     width: 6%;
     height: auto;
+    cursor: pointer;
 
 }
 .corazon{
@@ -57,4 +60,5 @@
     left: 55%;
     width: 7%;
     height: auto;
+    cursor: pointer;
 }
