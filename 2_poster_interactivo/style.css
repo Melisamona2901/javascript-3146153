@@ -68,9 +68,6 @@ animation: salto 0.06s ease forwards;
 }
 
 
-
-
-
 @keyframes salto{
     0%{transform: translateY(0); opacity: 1;}
     30%{transform: translateY(-60px);}
@@ -107,3 +104,32 @@ animation: salto 0.06s ease forwards;
       height: 24px;
       margin-right: 8px;
     }
+
+
+
+
+@keyframes mover-lateral {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(50px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.ladrillo-1 {
+    position: absolute;
+    top: 47%;
+    left: 18%;
+    animation: mover-lateral 2s linear infinite;
+}
+
+.ladrillo-2{
+    position: absolute;
+    top: 32%;
+    left: 53%;
+    animation: mover-lateral 4s linear infinite;
+}
